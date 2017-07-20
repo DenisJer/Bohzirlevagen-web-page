@@ -1,0 +1,324 @@
+@media only screen and (max-width: 1200px) {
+    .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six,
+    {
+        margin-top: 15%;
+    }
+    .sticky{
+    width:100%;
+    }
+    .sticky .logo{
+    margin-left:30px;
+    }
+    .main-nav li {
+
+    margin-left: 15px;
+    }
+    .sticky .logo{
+    padding-left: 0;
+    }
+}
+
+
+/* small tablet to big tablet from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 80%;
+    }
+    .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six,
+    .kontakt-berlin,
+    .kontakt-info,
+    .career-section-one,
+    .career-section-two,
+    .leistungen-section-three,
+    .leistungen-section-two,
+    .leistungen-section-one{
+        margin-top: 10%;
+    }
+    .career-h4 {
+        margin: 5% 0;
+    }
+    .responsive-logo {
+        width: 80%;
+    }
+    .leistungen-header-h1 {
+        padding: 10% 0;
+    }
+
+}
+/* medium phones to small tablets from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .wrapper,
+    .wrapper-box {
+        width: 100%;
+    }
+    .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six,
+    .kontakt-berlin,
+    .kontakt-info,
+    .career-section-one,
+    .career-section-two {
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .kontakt-munchen {
+        margin-top: 15%;
+    }
+    .one-of-2 {
+        text-align: center;
+        width: 100%;
+    }
+    .one-of-2 a {
+        float: right;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    .main-text-box {
+        padding: 2%;
+    }
+    .main-nav li {
+        margin-left: 5px;
+    }
+    .section-five p {
+        line-height: 32px;
+        text-align: center;
+        padding: 0;
+    }
+    .main-header {
+        padding: 0;
+        height: auto;
+    }
+    h2 {
+        font-size: 190%;
+    }
+    .main-h1 {
+        text-align: center;
+        margin: 2% 0;
+    }
+    .main-h2 {
+        font-size: 200%;
+        margin-bottom: 5%;
+        width: 95%;
+    }
+    .main-h2:after {
+        left: 2%;
+    }
+    .main-h3 {
+        line-height: 32px;
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 120%;
+    }
+    .main-h3:nth-child(1):before {
+        margin-bottom: 2%;
+    }
+    .main-h3:nth-child(1) {
+        margin-bottom: 2%;
+    }
+    .career-h3{
+        padding:5%;
+    }
+    .main-h4 {
+        text-align: center;
+        font-size: 130%;
+    }
+    .main-h4:after {
+        margin: 2% auto;
+    }
+    .margin-bottom p {
+        margin-bottom: 2%;
+    }
+    .display-none {
+        display: none;
+    }
+    .logo {
+        width: 30%;
+    }
+    .responsive-logo {
+        width: 100%;
+    }
+    footer {
+        margin-top: 1%;
+    }
+    .footer-logo {
+        margin: 5% 2.44%;
+        width: 25%;
+    }
+    .footer-nav {
+        margin: 0;
+        font-size: 90%;
+    }
+    .footer-nav li {
+        margin-left: 5px;
+    }
+    .impressum-h1 {
+        margin: 10% 0;
+    }
+    .impressum-section-two p {
+        margin-top: 3%;
+    }
+    .impressum-footer {
+        margin-top: 10%;
+    }
+    .impressum-info-box {
+        width: 100%;
+    }
+    .career-kontakt-header {
+        padding-bottom: 5%;
+    }
+    .career-h2:before {
+        margin: 4% auto;
+    }
+    .career-section-two {
+        text-align: center;
+    }
+    .kontakt-margin-bottom {
+        margin-bottom: 1%;
+    }
+    .kontakt-h1 {
+        padding: 10% 0;
+    }
+    .kontakt-h4 {
+        margin: 2% 0;
+    }
+    .map {
+        width: 100%;
+    }
+    .address-info {
+        width: 100%;
+        text-align: center;
+    }
+    .address-info a {
+        font-size: 150%;
+    }
+    .address-info p:nth-last-child(2) {
+        margin-bottom: 2%;
+    }
+    .responsive-padding {
+        padding-bottom: 5%;
+    }
+    .career-section-one-box p:nth-child(2) {
+        width: 100%;
+    }
+    .margin-top-56{
+        margin-top:0;
+    }
+    .leistungen-h1:before {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .padding-right-1382{
+        padding-right:0;
+    }
+    .leistungen-list {
+        text-align: left;
+    }
+    .sticky ul li {
+        display: block;
+    }
+    .leistungen-h2:before {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .leistungen-h2{
+        margin-top:0;
+    }
+    .leistungen-para-one{
+            margin-bottom: 3%;
+            padding: 0;
+            margin-top: 5%;
+    }
+    .leistungen-para-two{
+    margin-top:5%;
+    padding-right:0;
+    }
+    .construction-list {
+        padding-left: 2.5%;
+        }
+    
+    .padding-left-30{
+        padding-left:0;
+    }
+    .leistungen-h2-second:before {
+        left:0;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .leistungen-h2-second {
+    margin-top: 0;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size:80%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .wrapper,
+    .wrapper-box {
+        width: 100%;
+    }
+    nav {
+        margin: 0;
+    }
+    .burger {
+        margin-top: 10%;
+    }
+    .text-box {
+        margin: 0;
+    }
+    .logo {
+        width: 90%;
+    }
+    .footer-logo {
+        width: 60%;
+    }
+    .responsive-logo {
+        width: 50%;
+    }
+    .footer-nav {
+        font-size: 70%;
+        top: 0;
+    }
+    .footer-nav li {
+        margin-top: 20%;
+    }
+    .frau-image {
+        margin-right: 0;
+        float: none;
+    }
+    .kontakt-one-of-2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .kontakt-munchen {
+        margin-left: 0;
+        margin-right: 0;
+    }

@@ -1,0 +1,797 @@
+/*------------------------------ */
+/*--------- BASIC SETUP -------- */
+/*------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    
+    color: #474c52;
+    font-family: Myriad Pro;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+p {
+    line-height: 32px;
+}
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+.wrapper-box {
+    /* position: relative; */
+    
+    margin: 0 auto;
+    width: 1170px;
+}
+.clear {
+    clear: both;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.one-of-2 {
+    position: relative;
+    width: 50%;
+}
+.one-of-2 a {
+    color: #474c52;
+    font-weight: 600;
+}
+.align-right {
+    text-align: right;
+}
+.align-left{
+    text-align: left;
+}
+.align-center{
+    text-align: center;
+}
+.margin-left {
+    margin-left: 2.43%;
+}
+.white {
+    color: #fff;
+}
+.align-center {
+    text-align: center;
+}
+.padding-right{
+    padding-right: 6.5%;
+}
+.padding-left{
+    padding-left:14.63%;
+}
+.padding-left-15{
+    padding-left:1.22%;
+}
+.padding-left-30{
+    padding-left:2.44%;
+}
+.margin-top-56{
+    margin-top:56px;
+}
+.padding-right-1382{
+    padding-right:13.82%;
+}
+.leistungen-para-one{
+    margin-top: 77px;
+    padding-left: 12.68%;
+    margin-bottom: 52px;
+}
+.leistungen-para-two{
+    margin-top:73px;
+    padding-right:13.82%;
+}
+/*------------------------------ */
+/*--------- HEADINGS -------------- */
+/*------------------------------ */
+
+h1 {
+    /* display: inline-block; */
+    
+    font-size: 253%;
+}
+.main-h1 {
+    margin: 70px 0;
+}
+.impressum-h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.kontakt-h1 {
+    padding: 150px 0;
+    margin: 0 auto;
+}
+.leistungen-header-h1{
+    text-align: center;
+    padding:160px 0;
+}
+.leistungen-h1{
+    margin-bottom: 70px;
+}
+.leistungen-h1:before{
+    display: block;
+    height: 4px;
+    background-color: #474c52;
+    content: " ";
+    width: 11.38%;
+    margin-bottom:52px;
+}
+h2 {
+    font-size: 210.5%;
+}
+.main-h2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 210px;
+    width: 78.86%;
+    font-size: 205%;
+    text-align: center;
+}
+.main-h2:before {
+    display: block;
+    height: 4px;
+    background-color: #474c52;
+    content: " ";
+    width: 4.88%;
+    margin: 0 auto;
+    margin-bottom: 65px
+}
+.main-h2:after {
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    left: 52px;
+    text-transform: uppercase;
+    content: "-bonhnzirlewagen";
+}
+.career-h2 {
+    font-size: 210.52%;
+}
+.career-h2:before {
+    display: block;
+    height: 4px;
+    background-color: #474c52;
+    content: " ";
+    width: 11.38%;
+    margin-bottom: 60px;
+}
+.leistungen-h2,
+.leistungen-h2-second{
+    margin-top:62px;
+}
+.leistungen-h2-second{
+    
+}
+.leistungen-h2-second:before{
+    position: absolute;
+    top: 0;
+    left: 4.88%;
+    display: block;
+    height: 4px;
+    background-color: #474c52;
+    content: " ";
+    width: 11.38%;
+}
+.leistungen-h2:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 4px;
+    background-color: #474c52;
+    content: " ";
+    width: 11.38%;
+}
+h3 {
+    font-size: 158%;
+}
+.main-h3:nth-child(1) {
+    margin-bottom: 40px;
+}
+/* .main-h3:nth-child(2) {
+    margin-right: 165px;
+} 
+    
+    Reiktu sutvarkyti pagal .psd nezinau ar sitas css tinka :)
+
+*/
+
+.main-h3:nth-child(1):before {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+}
+.career-h3 {
+    text-align: center;
+    padding: 150px 0;
+    font-size: 36px;
+}
+.kontakt-h4 {
+    margin: 50px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+h4 {
+    line-height: 32px;
+    font-size: 24px;
+}
+.main-h4:after {
+    display: block;
+    height: 2px;
+    background-color: #474c52;
+    content: " ";
+    width: 15%;
+    margin-top: 40px;
+}
+.career-h4 {
+    font-size: 115.79%;
+    margin: 60px 0;
+    font-weight: 600;
+}
+/*------------------------------ */
+/*--------- SPANS -------------- */
+/*------------------------------ */
+
+.right-after:after {
+    margin-left: 85%;
+}
+.main-h5 {
+    padding: 5%;
+    display: block;
+    font-size: 105%;
+    color: #fff;
+}
+/*------------------------------ */
+/*--------- HEADER ------------- */
+/*------------------------------ */
+
+header {
+    background: url('../images/2_Bohnzirlewagen_landing_01-min.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+    background-position: center;
+}
+.main-header {
+    height: 800px;
+    padding-bottom: 12.5%;
+}
+/* logo */
+
+.logo {
+    float: left;
+    display: inline-block;
+    margin-top: 37px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+/* navigation */
+
+nav {
+    position: relative;
+    height: 108px;
+    margin: 0 auto;
+}
+.main-nav {
+    
+    float: left;
+    
+    list-style: none;
+}
+.main-nav li {
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    display: block;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    /* add some efects */
+}
+/* BURGER NAVI */
+
+.burger {
+    display: inline-block;
+    font-size: 200%;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2.6%;
+    position: absolute;
+    right: 30px;
+}
+.text-box {
+    background-color: rgba(0, 0, 0, 0.29);
+    color: #fff;
+    margin: 0 30px;
+}
+.main-text-box {
+    padding: 5.73% 14.53% 12.31% 8.55%;
+}
+/*------------------------------ */
+/*---------  STICKY NAVI ------------- */
+/*------------------------------ */
+.sticky ul li{
+    display: block;
+}
+.display-block{
+    display:block;
+}
+.burger-icon{
+    color:#fff;
+}
+.impressum-nav.sticky{
+    padding-bottom:25px;
+}
+.sticky .logo{
+    padding-left: 4%;
+}
+.sticky .burger{
+    right: 84px;
+}
+.sticky{
+    height: auto;
+    padding-bottom: 25px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(132, 132, 132, 0.57);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky li a:link,
+.sticky li a:visited {
+    color: #fff;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.sticky li a:hover,
+.sticky li a:active {
+    /* add some efects */
+}
+/*------------------------------ */
+/*---------  CONTACT + KOKTAKT HEADER ------------- */
+/*------------------------------ */
+
+.career-kontakt-header {
+    padding-bottom: 123px;
+}
+/*------------------------------ */
+/*---------  IMPRESSUM HEADER ------------- */
+/*------------------------------ */
+
+.impressum-nav {
+    padding-bottom: 130px;
+}
+/*------------------------------ */
+/*---------  LEISTUNGEN HEADER ------------- */
+/*------------------------------ */
+.leistungen-header{
+    height: 600px;
+}
+/*------------------------------ */
+/*--------- SECTION ONE -------- */
+/*------------------------------ */
+
+.section-one {
+    margin-left: 30px;
+    margin-top: 108px;
+}
+.margin-bottom p {
+    /*  line-height: 32px; */
+    
+    margin-bottom: 57px;
+}
+.people {
+    margin-right: 30px;
+    float: right;
+    width: 88.45%;
+    position: relative;
+}
+.box-shadow {
+    top: 43%;
+    position: absolute;
+    width: 73.39%;
+    height: 86.6%;
+    background-color: #b7ada3;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+}
+.shadow-about {
+    right: 47%;
+    position: absolute;
+    width: 46.5%;
+    background-color: #725c47;
+    top: 105.83%;
+}
+.shadow-about p {
+    color: #fff;
+    font-size: 19px;
+}
+/*------------------------------ */
+/*--------- CAREER SECTION ONE -------- */
+/*------------------------------ */
+
+.career-section-one {
+    margin-top: 105px;
+}
+.career-section-one-box {
+    width: 78.86%;
+    margin: 0 auto;
+}
+.career-section-one-box p {
+    color: #757575;
+    margin-bottom: 44px;
+    text-align: center;
+}
+.career-section-one-box p:nth-child(2) {
+    width: 62.68%;
+    margin: 0 auto
+}
+/*------------------------------ */
+/*--------- IMPRESSUM SECTION ONE -------- */
+/*------------------------------ */
+
+.impressum-info-box {
+    width: 41%;
+}
+.impressum-info-box p:nth-child(15) {
+    margin-bottom: 50px;
+}
+/*------------------------------ */
+/*--------- LEISTUNGEN SECTION ONE -------- */
+/*------------------------------ */
+
+.leistungen-section-one{
+    margin-top:160px;
+}
+.leistungen-square-shadow{
+    right: 0;
+    top: -5.71%;
+    position: absolute;
+    height: 110%;
+    width: 65.04%;
+    background-color: #b7ada3;
+    z-index: -1;
+}
+.leistungen-suitcase{
+    float: right;
+    margin-left: 30px;
+    position: relative;
+    width: 76.42%;
+    margin-right: 4.88%;
+}
+.leistungen-list{
+    line-height: 32px;
+    list-style-type: disc;
+    padding-left: 2.5%;
+    margin-top: 53px;
+}
+/*------------------------------ */
+/*--------- KONTAKT SECTION ONE -------- */
+/*------------------------------ */
+
+.kontakt-info {
+    margin-left: 2.44%;
+    margin-right: 2.44%;
+    margin-top: 150px;
+}
+.kontakt-one-of-2 {
+    position: relative;
+    width: 50%;
+}
+.frau-image {
+    float: right;
+    width: 76.42%;
+    position: relative;
+    
+}
+.kontakt-shadow {
+    right: -4.87%;
+    position: absolute;
+    width: 75.12%;
+    height: 95.08%;
+    background-color: #b7ada3;
+    top: -9.32%;
+    z-index: -1;
+}
+/*------------------------------ */
+/*--------- SECTION TWO -------- */
+/*------------------------------ */
+
+.section-two {
+    margin-right: 30px;
+    margin-top: 250px;
+}
+.section-two.margin-bottom p {
+    padding-left: 115px;
+}
+.suitcase {
+    margin-left: 30px;
+    position: relative;
+    width: 92.68%;
+}
+.square-shadow {
+    top: 11.7%;
+    position: absolute;
+    height: 100%;
+    width: 81.3%;
+    background-color: #b7ada3;
+    z-index: -1;
+}
+/*------------------------------ */
+/*--------- CAREER SECTION TWO -------- */
+/*------------------------------ */
+
+.career-section-two {
+    margin-right: 2.44%;
+    margin-top: 150px;
+}
+.career-construction-site {
+    position: relative;
+    width: 76.42%;
+    margin-left: 4.87%;
+}
+.career-construction-site-shadow {
+    top: 9.82%;
+    z-index: -1;
+    position: absolute;
+    width: 74.8%;
+    height: 108.06%;
+    background-color: #b7ada3;
+}
+.kontakt-margin-bottom {
+    margin-bottom: 70px;
+}
+/*------------------------------ */
+/*--------- IMPRESSUM SECTION TWO ------ */
+/*------------------------------ */
+
+.impressum-topic-heading {
+    font-weight: 600;
+}
+.impressum-section-two p {
+    margin-top: 50px;
+}
+.impressum-section-one,
+.impressum-section-two {
+    margin: 0 2.44%;
+}
+/*------------------------------ */
+/*--------- KONTAKT SECTION TWO -------- */
+/*------------------------------ */
+
+.kontakt-munchen {
+    margin-left: 2.44%;
+    margin-right: 2.44%;
+    margin-top: 195px;
+}
+.address-info {
+    width: 38.21%;
+}
+.address-info p {
+    font-size: 22px;
+}
+.map {
+    float: right;
+    width: 61.79%;
+    height: 400px;
+}
+.address-info a {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #474c52;
+    padding-bottom: 2px;
+    color: #474c52;
+}
+.address-info p:nth-last-child(2) {
+    margin-bottom: 43px;
+}
+/*------------------------------ */
+/*---------LEISTUNGEN SECTION TWO -------- */
+/*------------------------------ */
+.leistungen-section-two{
+    margin-top:175px;
+}
+.leistungen-construction-image{
+    margin-left: 4.88%;
+    width:81.3%;
+}
+.leistungen-construnction-shadow{
+    top: 9.81%;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    background-color: #b7ada3;
+    width: 81.3%;
+    height: 107.75%;
+}
+.construction-list{
+    line-height: 32px;
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 18.37%;
+}
+/*------------------------------ */
+/*--------- SECTION KONTAKT BERLIN ------ */
+/*------------------------------ */
+
+.kontakt-berlin {
+    margin-left: 2.44%;
+    margin-right: 2.44%;
+    margin-top: 150px;
+}
+/*------------------------------ */
+/*--------- SECTION THREE ------ */
+/*------------------------------ */
+
+.section-three {
+    margin-left: 30px;
+    margin-top: 180px;
+}
+/*------------------------------ */
+/*---------LEISTUNGEN SECTION THREE ------ */
+/*------------------------------ */
+.leistungen-section-three{
+    margin-top:274px;
+}
+.leistungen-people{
+    width: 76.42%;
+    float:right;
+    margin-right: 4.88%;
+}
+/*------------------------------ */
+/*--------- SECTION FOUR-------- */
+/*------------------------------ */
+
+.section-four {
+    margin-top: 209px;
+}
+.traktor-div {
+    width: 95.12%;
+    position: relative;
+    margin: 0 auto;
+}
+.traktor {
+    position: relative;
+    width: 100%;
+}
+.traktor-shadow {
+    top: -12.25%;
+    left: -2.56%;
+    position: absolute;
+    z-index: -1;
+    width: 45.2%;
+    height: 134.31%;
+    background-color: #b7ada3;
+}
+/*------------------------------ */
+/*--------- SECTION FIVE-------- */
+/*------------------------------ */
+
+.section-five {
+    margin-right: 30px;
+    margin-top: 297px;
+}
+.section-five p {
+    padding-left: 100px;
+    /*    line-height: 145%; */
+}
+.construction-site {
+    position: relative;
+    width: 92.68%;
+    margin-left: 4.88%;
+}
+.shadow-building {
+    top: 15.46%;
+    left: 9.82%;
+    z-index: -1;
+    position: absolute;
+    background-color: #b7ada3;
+    width: 92.68%;
+    height: 88.07%;
+}
+/*------------------------------ */
+/*--------- SECTION SIX -------- */
+/*------------------------------ */
+
+.section-six {
+    margin-top: 170px;
+}
+.last-shadow-box {
+    width: 95.12%;
+    position: relative;
+    margin: 0 auto;
+}
+.last-image {
+    position: relative;
+    width: 100%;
+}
+.shadow-last {
+    position: absolute;
+    float: left;
+    width: 53.85%;
+    height: 86.52%;
+    z-index: -1;
+    background-color: #725c47;
+    left: -2.56%;
+    top: -6.97%;
+}
+/*------------------------------ */
+/*--------- FOOTER ------------- */
+/*------------------------------ */
+
+footer {
+    margin-top: 110px;
+    background-color: #d5ccc5;
+}
+.footer-nav-bar {
+    height: 250px;
+}
+.footer-logo {
+    margin-left: 2.44%;
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.footer-nav {
+    right: 2.44%;
+    top: 50%;
+    position: absolute;
+    list-style: none;
+}
+.footer-nav li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    color: #725c47;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    /* add some efects */
+}
+/*------------------------------ */
+/*---------IMPRESSUM FOOTER ------------- */
+/*------------------------------ */
+
+.impressum-footer {
+    margin-top: 170px;
+}
